@@ -30,10 +30,12 @@ dummyjson-client
 │   │   │       │   └── RestTemplateConfig.java
 │   │   │       ├── controller
 │   │   │       │   └── ProductController.java
+│   │   │       │   └── HealthController.java
 │   │   │       ├── dto
 │   │   │       │   └── Product.java
 │   │   │       ├── service
-│   │   │       │   └── ProductService.java
+│   │   │       │   └── ProductService.java  
+│   │   │       │   └── ProductFeignClient.java  
 │   │   └── resources
 │   │       └── application.yaml
 │   └── test
@@ -42,7 +44,8 @@ dummyjson-client
 │       │       ├── config
 │       │       │   └── RestTemplateConfigTest.java
 │       │       └── controller
-│       │       │   └── ProductControllerTest.java
+│       │       │   └── ProductControllerTest.java  
+│       │       │   └── HealthControllerTest.java  
 │       │       ├── dto
 │       │       │   └── ProductTest.java
 │       │       └── service

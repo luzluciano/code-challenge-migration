@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    #active: prod
+    #active: qa
+    active: dev
+    #active: local
+    #active: @activatedProperties@  
+
+--- 
+spring:
+  config:
+    activate:
+      on-profile: dev    
+
+dummyjson:
+  api:
+    url: ${URL_DUMMYJSON:https://dummyjson.com/products}
+
+
+--- 
+spring:
+  config:
+    activate:
+      on-profile: qa      
+
+dummyjson:
+  api:
+    url: ${URL_DUMMYJSON:https://dummyjson.com/products}
+    
+

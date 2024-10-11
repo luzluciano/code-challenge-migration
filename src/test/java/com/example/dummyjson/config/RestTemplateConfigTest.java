@@ -43,4 +43,5 @@ public class RestTemplateConfigTest {
 		assertThat(productFeignClient).isNotNull();
 
 	}
+
 }

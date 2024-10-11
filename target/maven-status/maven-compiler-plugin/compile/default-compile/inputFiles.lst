@@ -1,7 +1,7 @@
-C:\projetoEntrevista\code-challenge-migration\src\main\java\com\example\dummyjson\DummyJsonClientApplication.java
-C:\projetoEntrevista\code-challenge-migration\src\main\java\com\example\dummyjson\controller\HealthController.java
-C:\projetoEntrevista\code-challenge-migration\src\main\java\com\example\dummyjson\controller\ProductController.java
-C:\projetoEntrevista\code-challenge-migration\src\main\java\com\example\dummyjson\service\ProductFeignClient.java
-C:\projetoEntrevista\code-challenge-migration\src\main\java\com\example\dummyjson\config\RestTemplateConfig.java
-C:\projetoEntrevista\code-challenge-migration\src\main\java\com\example\dummyjson\dto\Product.java
-C:\projetoEntrevista\code-challenge-migration\src\main\java\com\example\dummyjson\service\ProductService.java
+C:\projetoEntrevista\projetoEntregaGitHUB\code-challenge-migration\src\main\java\com\example\dummyjson\service\ProductService.java
+C:\projetoEntrevista\projetoEntregaGitHUB\code-challenge-migration\src\main\java\com\example\dummyjson\controller\ProductController.java
+C:\projetoEntrevista\projetoEntregaGitHUB\code-challenge-migration\src\main\java\com\example\dummyjson\controller\HealthController.java
+C:\projetoEntrevista\projetoEntregaGitHUB\code-challenge-migration\src\main\java\com\example\dummyjson\DummyJsonClientApplication.java
+C:\projetoEntrevista\projetoEntregaGitHUB\code-challenge-migration\src\main\java\com\example\dummyjson\config\RestTemplateConfig.java
+C:\projetoEntrevista\projetoEntregaGitHUB\code-challenge-migration\src\main\java\com\example\dummyjson\service\ProductFeignClient.java
+C:\projetoEntrevista\projetoEntregaGitHUB\code-challenge-migration\src\main\java\com\example\dummyjson\dto\Product.java

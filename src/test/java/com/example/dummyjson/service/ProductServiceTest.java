@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
+import com.example.dummyjson.dto.ListProduct;
 import com.example.dummyjson.dto.Product;
 
 @SpringBootTest
@@ -31,8 +32,12 @@ public class ProductServiceTest {
         product2.setId(2L);
         product2.setTitle("Product 2");
 
-        Product[] products = {product1, product2};
-        when(productFeignClient.getAllProducts()).thenReturn(products);
+        List<Product> listProduct = List.of(product1, product2);
+        ListProduct products = new ListProduct();
+        products.setProducts(listProduct);
+        
+        //Product[] products = {product1, product2};
+        when(productFeignClient.getAllProductsList()).thenReturn(products);
 
         List<Product> result = productService.getAllProducts();
         assertEquals(2, result.size());

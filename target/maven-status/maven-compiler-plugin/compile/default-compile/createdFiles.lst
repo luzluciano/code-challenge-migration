@@ -4,4 +4,5 @@ com\example\dummyjson\service\ProductFeignClient.class
 com\example\dummyjson\dto\Product.class
 com\example\dummyjson\config\RestTemplateConfig.class
 com\example\dummyjson\controller\HealthController.class
+com\example\dummyjson\dto\ListProduct.class
 com\example\dummyjson\DummyJsonClientApplication.class
